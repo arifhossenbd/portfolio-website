@@ -118,7 +118,9 @@ ul {
 }
 
 .primary__btn {
-    padding: 1rem 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: .8rem 1.6rem;
     border-radius: 5px;
     background: rgb(253, 110, 10);
     color: rgb(255, 255, 255);
@@ -127,9 +129,24 @@ ul {
     letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+:hover.primary__btn{
+    background-color: transparent;
+    color: rgb(253, 110, 10);
+    border: 1px solid rgb(253, 110, 10);
+}
+
+:hover.transparent__btn{
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    border: none;
 }
 
 .transparent__btn {
+    display: flex;
+    align-items: center;
     color: rgb(253, 110, 10);
     background-color: transparent;
     font-size: 20px;
