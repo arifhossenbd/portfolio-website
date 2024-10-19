@@ -66,7 +66,6 @@ ul {
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -95,7 +94,6 @@ ul {
     font-size: 45px;
     font-weight: 600;
     line-height: 61px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -104,7 +102,6 @@ ul {
     font-size: 85px;
     font-weight: 700;
     line-height: 116px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -113,7 +110,6 @@ ul {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -127,7 +123,6 @@ ul {
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
-    letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
     transition: all 0.3s linear;
@@ -153,7 +148,6 @@ ul {
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
-    letter-spacing: 0%;
     text-align: center;
     border: 1px solid rgb(253, 110, 10);
     border-radius: 5px;
@@ -190,7 +184,6 @@ main {
     font-size: 35px;
     font-weight: 700;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: center;
     margin: 1rem 0;
 }
@@ -206,7 +199,6 @@ main {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0%;
     text-align: center;
     padding: 2rem;
 }
@@ -238,7 +230,6 @@ main {
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
-    letter-spacing: 0%;
     margin-top: 1rem;
 }
 
@@ -267,7 +258,6 @@ main {
     font-size: 30px;
     font-weight: 700;
     line-height: 41px;
-    letter-spacing: 0%;
     text-align: left;
     margin: 1rem 0;
 }
@@ -283,7 +273,6 @@ main {
     font-size: 25px;
     font-weight: 700;
     line-height: 34px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -292,7 +281,6 @@ main {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0%;
     text-align: left;
 }
 .resume__description{
@@ -300,7 +288,6 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -333,7 +320,6 @@ footer{
     font-size: 25px;
     font-weight: 700;
     line-height: 34px;
-    letter-spacing: 0%;
 }
 
 .footer__desc{
@@ -341,7 +327,6 @@ footer{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
 }
 
 .social__icons{
@@ -464,19 +449,19 @@ input, textarea{
     }
     
     .primary__btn {
-        font-size: 18px;
-        font-weight: 700;
-        text-align: left;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 10px;
+        border-radius: 5px;
+        padding: .6rem 1rem;
     }
     
     .transparent__btn {
-        background-color: transparent;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 17px;
-        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 10px;
         border-radius: 5px;
-        padding: 1rem 2rem;
+        padding: .6rem 1rem;
     }
     
     .header__btn__container {
