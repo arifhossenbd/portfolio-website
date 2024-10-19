@@ -19,23 +19,20 @@ html {
 
 body {
     background-color: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: rgb(71, 71, 71);
     transition: all 0.3s linear;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1rem;
+    padding-left: 2rem;
+    background-color: rgb(255, 248, 243);
+}
+
+.developer__img{
+    height: 45rem;
 }
 
 .logo {
@@ -50,11 +47,7 @@ header {
 }
 
 nav {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    padding: 1rem 4rem;
-    background-color: #f1f1f1;
+    padding: 2rem 4rem;
     display: flex;
     align-items: center;
 }
@@ -125,13 +118,12 @@ ul {
 }
 
 .primary__btn {
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 5px;
     background: rgb(253, 110, 10);
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
-    line-height: 27px;
     letter-spacing: 0%;
     text-align: left;
     cursor: pointer;
@@ -159,30 +151,14 @@ ul {
 }
 
 main {
-    padding: 2rem 6rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    align-items: center;
-    text-align: center;
-    background-color: #ffffff;
-}
-
-footer {
-    padding: 2rem 6rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    align-items: center;
-    text-align: center;
-    background-color: #f1f1f1;
+    margin: auto 5rem;
 }
 
 .about {
-    width: 1140px;
     border-radius: 10px;
     background: rgb(255, 248, 243);
     padding: 3rem 5rem;
+    margin: 4rem auto;
 }
 
 .about__container {
@@ -199,6 +175,7 @@ footer {
     line-height: 48px;
     letter-spacing: 0%;
     text-align: center;
+    margin: 1rem 0;
 }
 
 .about__bio {
@@ -217,12 +194,13 @@ footer {
     padding: 2rem;
 }
 
-.card__box{
-    display: flex;
+.card__box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    gap: 2rem;
-    padding: 2rem;
+    gap: 3rem;
 }
+
 .card {
     border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -232,8 +210,444 @@ footer {
     padding: 1rem;
 }
 
-.card__content{
+.card__content {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.card__title {
+    color: rgb(24, 24, 24);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-top: 1rem;
+}
+
+/* =========== Resume Section =========== */
+.resume__section{
+    margin: 4rem 0;
+}
+.resume__column {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.resume__card__box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.resume__title {
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.resume__card {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.resume__subtitle{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.resume__position{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.resume__description{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.bottom__btn{
+    text-align: center;
+    margin: 2rem auto;
+}
+
+/* =========== Footer ============ */
+footer{
+    padding: 2rem 6rem;
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    text-align: left;
+    align-items: baseline;
+}
+
+.footer__contents{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer__title{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+}
+
+.footer__desc{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.social__icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.footer__form input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    outline-color: rgb(253, 110, 10);
+}
+.footer__form textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    outline-color: rgb(253, 110, 10);
+}
+
+input, textarea{
+    color: rgb(253, 110, 10);
+}
+
+
+/* ============== Responsive styles ================= */
+
+@media screen and (max-width: 576px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .developer__img{
+       display: none;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 1rem;
+    }
+    
+    .logo__r {
+        color: rgb(253, 110, 10)
+    }
+    
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav,
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 0;
+        margin: 0;
+        font-size: large;
+    }
+    
+    .header__container {
+        background-image: url('images/header_bg.png');
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        margin: 0;
+        margin-top: 3rem;
+        width: fit-content;
+        height: auto;
+    }
+    
+    .header__contents {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__greet {
+        color: rgb(71, 71, 71);
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 41px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .header__title {
+        color: rgb(24, 24, 24);
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 80px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .header__desc {
+        color: rgb(117, 117, 117);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .header__img{
+        width: 100%;
+        height: max-content;
+        margin-top: 1rem;
+        height: min-content;
+    }
+    
+    .primary__btn {
+        padding: 1rem 1.5rem;
+        border-radius: 5px;
+        background: rgb(253, 110, 10);
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0%;
+        text-align: left;
+        cursor: pointer;
+    }
+    
+    .transparent__btn {
+        color: rgb(253, 110, 10);
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: center;
+        border: 1px solid rgb(253, 110, 10);
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        transition: all 0.3s linear;
+        cursor: pointer;
+    }
+    
+    .header__btn__container {
+        margin-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main {
+        margin: auto 1rem;
+    }
+    
+    .about {
+        border-radius: 10px;
+        background: rgb(255, 248, 243);
+        padding: 2rem;
+        margin: 1rem auto;
+    }
+    
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+    }
+    
+    .title {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 38px;
+        margin: .5rem 0;
+    }
+    
+    .about__bio {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:1rem;
+    }
+    
+    .description {
+        color: rgb(117, 117, 117);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 2rem;
+    }
+    
+    .card__box {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .card__title {
+        color: rgb(24, 24, 24);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0%;
+        margin-top: 1rem;
+    }
+    
+    /* =========== Resume Section =========== */
+    .resume__section{
+        margin: 3rem 0;
+    }
+    .resume__column {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .resume__title {
+        color: rgb(71, 71, 71);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    
+    .resume__card {
+        gap: .5rem;
+    }
+    
+    .resume__subtitle{
+        color: rgb(71, 71, 71);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .resume__position{
+        color: rgb(117, 117, 117);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .resume__description{
+        color: rgb(117, 117, 117);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    
+    .bottom__btn{
+        text-align: center;
+        margin: 2rem auto;
+    }
+    
+    /* =========== Footer ============ */
+    footer{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    
+    .footer__contents{
+        width: 100%;
+        align-items: center;
+    }
+    .footer__form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-end;
+    }
+    .footer__title{
+        color: rgb(71, 71, 71);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    .footer__desc{
+        color: rgb(71, 71, 71);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+    }
+    
+    .social__icons{
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
