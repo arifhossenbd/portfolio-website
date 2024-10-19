@@ -449,19 +449,19 @@ input, textarea{
     }
     
     .primary__btn {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 500;
-        line-height: 10px;
+        line-height: 15px;
         border-radius: 5px;
-        padding: .6rem 1rem;
+        padding: .8rem 1rem;
     }
     
     .transparent__btn {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 500;
-        line-height: 10px;
+        line-height: 15px;
         border-radius: 5px;
-        padding: .6rem 1rem;
+        padding: .8rem 1rem;
     }
     
     .header__btn__container {
