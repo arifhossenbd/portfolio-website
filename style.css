@@ -155,7 +155,6 @@ main {
 }
 
 .about {
-    border-radius: 10px;
     background: rgb(255, 248, 243);
     padding: 3rem 5rem;
     margin: 4rem auto;
@@ -202,7 +201,6 @@ main {
 }
 
 .card {
-    border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
     transition: all 0.3s ease-in-out;
@@ -382,10 +380,6 @@ input, textarea{
         padding-top: 1rem;
     }
     
-    .logo__r {
-        color: rgb(253, 110, 10)
-    }
-    
     nav {
         flex-direction: column;
         justify-content: center;
@@ -404,7 +398,6 @@ input, textarea{
     }
     
     .header__container {
-        background-image: url('images/header_bg.png');
         background-size: contain;
         background-position: bottom center;
         background-repeat: no-repeat;
@@ -414,8 +407,6 @@ input, textarea{
         padding: 0 1rem;
         margin: 0;
         margin-top: 3rem;
-        width: fit-content;
-        height: auto;
     }
     
     .header__contents {
@@ -425,65 +416,47 @@ input, textarea{
     }
     
     .header__greet {
-        color: rgb(71, 71, 71);
         font-size: 35px;
         font-weight: 600;
         line-height: 41px;
-        letter-spacing: 0%;
         text-align: center;
     }
     
     .header__title {
-        color: rgb(24, 24, 24);
         font-size: 65px;
         font-weight: 600;
         line-height: 80px;
-        letter-spacing: 0%;
         text-align: center;
     }
     
     .header__desc {
-        color: rgb(117, 117, 117);
         font-size: 18px;
         font-weight: 400;
         line-height: 20px;
-        letter-spacing: 0%;
         text-align: center;
         padding: 1rem;
     }
 
     .header__img{
         width: 100%;
-        height: max-content;
         margin-top: 1rem;
         height: min-content;
     }
     
     .primary__btn {
-        padding: 1rem 1.5rem;
-        border-radius: 5px;
-        background: rgb(253, 110, 10);
-        color: rgb(255, 255, 255);
         font-size: 18px;
         font-weight: 700;
-        letter-spacing: 0%;
         text-align: left;
-        cursor: pointer;
     }
     
     .transparent__btn {
-        color: rgb(253, 110, 10);
         background-color: transparent;
         font-size: 18px;
         font-weight: 600;
         line-height: 17px;
-        letter-spacing: 0%;
         text-align: center;
-        border: 1px solid rgb(253, 110, 10);
         border-radius: 5px;
         padding: 1rem 2rem;
-        transition: all 0.3s linear;
-        cursor: pointer;
     }
     
     .header__btn__container {
@@ -498,8 +471,6 @@ input, textarea{
     }
     
     .about {
-        border-radius: 10px;
-        background: rgb(255, 248, 243);
         padding: 2rem;
         margin: 1rem auto;
     }
@@ -527,11 +498,9 @@ input, textarea{
     }
     
     .description {
-        color: rgb(117, 117, 117);
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
-        letter-spacing: 0%;
         text-align: center;
         padding: 2rem;
     }
@@ -543,11 +512,9 @@ input, textarea{
     }
     
     .card__title {
-        color: rgb(24, 24, 24);
         font-size: 20px;
         font-weight: 600;
         line-height: 26px;
-        letter-spacing: 0%;
         margin-top: 1rem;
     }
     
@@ -564,11 +531,9 @@ input, textarea{
     }
     
     .resume__title {
-        color: rgb(71, 71, 71);
         font-size: 30px;
         font-weight: 700;
         line-height: 41px;
-        letter-spacing: 0%;
         text-align: center;
         margin: 1rem 0;
     }
@@ -578,28 +543,22 @@ input, textarea{
     }
     
     .resume__subtitle{
-        color: rgb(71, 71, 71);
         font-size: 20px;
         font-weight: 600;
         line-height: 30px;
-        letter-spacing: 0%;
         text-align: left;
     }
     
     .resume__position{
-        color: rgb(117, 117, 117);
         font-size: 18px;
         font-weight: 400;
         line-height: 20px;
-        letter-spacing: 0%;
         text-align: left;
     }
     .resume__description{
-        color: rgb(117, 117, 117);
         font-size: 16px;
         font-weight: 400;
         line-height: 15px;
-        letter-spacing: 0%;
         text-align: left;
     }
     
@@ -629,20 +588,16 @@ input, textarea{
         align-items: flex-end;
     }
     .footer__title{
-        color: rgb(71, 71, 71);
         font-size: 18px;
         font-weight: 700;
         line-height: 24px;
-        letter-spacing: 0%;
         text-align: center;
     }
     
     .footer__desc{
-        color: rgb(71, 71, 71);
         font-size: 12px;
         font-weight: 400;
         line-height: 20px;
-        letter-spacing: 0%;
     }
     
     .social__icons{
