@@ -373,6 +373,8 @@ input, textarea{
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 0;
+        margin: 0;
     }
     
     .developer__img{
@@ -398,7 +400,7 @@ input, textarea{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1.5rem;
+        gap: 1rem;
         padding: 0;
         margin: 0;
         font-size: large;
@@ -414,10 +416,11 @@ input, textarea{
         padding: 0 1rem;
         margin: 0;
         margin-top: 3rem;
+        gap: .3rem;
     }
     
     .header__contents {
-        width: fit-content;
+        gap: .2rem;
     }
     
     .header__greet {
@@ -488,10 +491,10 @@ input, textarea{
     }
     
     .title {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 700;
-        line-height: 38px;
-        margin: .5rem 0;
+        line-height: 30px;
+        margin: .4rem 0;
     }
     
     .about__bio {
@@ -503,7 +506,7 @@ input, textarea{
     }
     
     .description {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 400;
         text-align: justify;
         padding: 1rem;
@@ -524,7 +527,7 @@ input, textarea{
     
     /* =========== Resume Section =========== */
     .resume__section{
-        margin: 3rem 0;
+        margin: 2rem 0;
     }
     .resume__column {
         flex-direction: column;
@@ -535,9 +538,9 @@ input, textarea{
     }
     
     .resume__title {
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 41px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 35px;
         text-align: center;
         margin: 1rem 0;
     }
@@ -547,26 +550,30 @@ input, textarea{
     }
     
     .resume__subtitle{
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 30px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
         text-align: left;
     }
     
     .resume__position{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 20px;
         text-align: left;
     }
     .resume__description{
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 300;
         line-height: 15px;
         text-align: left;
     }
     
     .bottom__btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         margin: 2rem auto;
     }
